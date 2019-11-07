@@ -24,10 +24,10 @@ const Chat = ({domanda = "Dove?", risposta = "Boh."}) => {
     React.useEffect(() => { const id = setInterval(() => { setSeconds(seconds + 1); }, 1000); return () => clearInterval(id); });
 
     const stati = {
-        0.1: { mittente: "scrivendo", destinatario: "nascosto", riprova: false },
-        0.8: { mittente: "arrivato", destinatario: "nascosto", riprova: false },
-        1.7: { mittente: "arrivato", destinatario: "scrivendo", riprova: false },
-        2.5: { mittente: "arrivato", destinatario: "arrivato", riprova: true },
+        0: { mittente: "scrivendo", destinatario: "nascosto", riprova: false },
+        1: { mittente: "arrivato", destinatario: "nascosto", riprova: false },
+        2: { mittente: "arrivato", destinatario: "scrivendo", riprova: false },
+        3: { mittente: "arrivato", destinatario: "arrivato", riprova: true },
     };
 
     const keyframes = Object.keys(stati);
