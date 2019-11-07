@@ -21,7 +21,11 @@ const risposte = [
     "Il vero Sergio è sempre stato nei nostri cuori.",
     "Nella terra dei cachi.",
     "Guarda dentro di te e troverai la risposta.",
-    "Usa la forza, Luke."
+    "Usa la forza, Luke.",
+    "Parola d'ordine?",
+    "Convocato in nazionale.",
+    "Alla fermata del destino.",
+    "E tu dove sei?"
 ];
 
 export { domande, risposte };
