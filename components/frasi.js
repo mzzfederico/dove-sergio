@@ -25,7 +25,20 @@ const risposte = [
     "Parola d'ordine?",
     "Convocato in nazionale.",
     "Alla fermata del destino.",
-    "E tu dove sei?"
-];
+    "E tu dove sei?",
+    "Sulla Luna boscosa di Endor.",
+    "Sei il nostro milionesimo visitatore!",
+    "Nella mano destra o nella mano sinistra?",
+    "Nella foresta nera a cercare il tesoro dei Grimm.",
+    "In missione per il Vallo.",
+    "Fumata bianca, l'hanno chiamato al Vaticano proprio ora.",
+    "Nick Fury ha chiamato, gli serve un developer.",
+    "A cercare le sfere del drago.",
+    "User not in sudoers file, incident will be reported.",
+    "404 not found",
+    "500 server error",
+    "Eletto a due terzi al parlamento in seduta plenaria: ora lo devi chiamare Signor Presidente.",
+    "Eh, brutta l'abolizione della schiavitu' eh?"
+]; 
 
 export { domande, risposte };
