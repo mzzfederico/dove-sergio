@@ -37,7 +37,7 @@ const risposte = [
     "User not in sudoers file, incident will be reported.",
     "404 not found",
     "500 server error",
-    "Eletto a due terzi al parlamento in seduta plenaria: ora lo devi chiamare Signor Presidente.",
+    "Eletto con due terzi dei voti al parlamento in seduta plenaria: ora lo devi chiamare Signor Presidente.",
     "Eh, brutta l'abolizione della schiavitu' eh?"
 ]; 
 
