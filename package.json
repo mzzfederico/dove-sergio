@@ -1,19 +1,18 @@
 {
-  "name": "dove-sergio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "eslint": "^6.6.0",
-    "eslint-plugin-react": "^7.16.0",
-    "framer-motion": "^1.6.15",
-    "next": "9.1.2",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
-    "react-timer-hook": "^1.1.7"
-  }
+    "name": "dove-sergio",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "eslint": "^6.6.0",
+        "eslint-plugin-react": "^7.16.0",
+        "framer-motion": "^1.6.15",
+        "next": "9.1.2",
+        "react": "16.11.0",
+        "react-dom": "16.11.0"
+    }
 }

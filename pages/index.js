@@ -14,7 +14,7 @@ const Home = () => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <Chat domanda={generaFraseRandom(domande)} risposta={generaFraseRandom(risposte)} />; 
+        <Chat domanda={generaFraseRandom(domande)} risposta={generaFraseRandom(risposte)} />
     </div>);
 };
 
