@@ -20,7 +20,7 @@ const Home = () => {
 
 const Chat = ({domanda = "Dove?", risposta = "Boh."}) => {
     /* Secondi... */
-    const [ seconds, setSeconds ] = React.useState(0);
+    const [ seconds, setSeconds ] = React.useState(0.1);
     React.useEffect(() => { const id = setInterval(() => { setSeconds(seconds + 1); }, 1000); return () => clearInterval(id); });
 
     const stati = {
