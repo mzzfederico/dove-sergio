@@ -5,12 +5,13 @@ const Nuvola = ({ fondo = "#C12400", testo = "#fafafa", contenuto = "", direzion
     scrivendo: <Spinner />,
     arrivato: <motion.div className="animatore" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}>
 
-        <div className="nuvola">{contenuto}</div>
+        <div className="nuvola" style={{ fontSize: contenuto.length > 16 ? "1.5rem" : "2rem"}}>{contenuto}</div>
 
         <style jsx>{`
+             @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
             .nuvola {
-                font-family: -apple-system, BlinkMacSystemFont, “Roboto”, “Droid Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif;
-                font-size: 2.5rem;
+                font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, “Roboto”, “Droid Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif;
                 color: ${testo};
 
                 margin: 2rem 4rem;

@@ -40,6 +40,10 @@ const Chat = ({domanda = "Dove?", risposta = "Boh."}) => {
 
     return (
         <div className="chat">
+            <div className="logo">
+                <span>dov'èserg<span className="irossa">i</span>o<span className="ext">.it?</span></span>
+            </div>
+
             <div className="mittente">
                 <Nuvola contenuto={domanda} fondo={"#666666"} direzione="right" stato={statoAttuale.mittente} />
             </div>
@@ -48,6 +52,24 @@ const Chat = ({domanda = "Dove?", risposta = "Boh."}) => {
             </div>
 
             <style jsx>{`
+                    @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+                    .irossa {
+                        color: #C12400;
+                    }
+
+                    .ext {
+                        font-size: 1.5rem;
+                    }
+
+                    .logo {
+                        font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, “Roboto”, “Droid Sans”, “Helvetica Neue”, Helvetica, Arial, sans-serif;
+                        text-align: center;
+                        font-size: 2rem;
+                        color: white;
+                        grid-area: 2 / 3 / 3 / 5;
+                    }
+
                     .chat {
                         width: 100vw;
                         height: 100vh;
@@ -55,15 +77,15 @@ const Chat = ({domanda = "Dove?", risposta = "Boh."}) => {
                         background-color: #2B6482;
 
                         grid-template-columns: 10vw 1fr 1fr 1fr 1fr 10vw;
-                        grid-template-rows: 10vw 1fr 1fr 1fr 1fr 3rem 10vw;
+                        grid-template-rows: 10vw 1fr 1fr 1fr 1fr 1fr 3rem 10vw;
                     }
 
                     .mittente {
-                        grid-area: 2 / 4 / 4 / 6;
+                        grid-area: 3 / 4 / 5 / 6;
                     }
 
                     .destinatario {
-                        grid-area: 4 / 2 / 6 / 4;
+                        grid-area: 5 / 2 / 7 / 4;
                     }
                 `}</style>
         </div>
