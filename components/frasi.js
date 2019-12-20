@@ -6,6 +6,8 @@ const domande = [
 ];
 
 const risposte = [
+    "E tu sei?",
+    "Ma che ce futt",
     "A pranzo.",
     "L'abbiamo visto entrare in una cabina telefonica, ma poi è uscito Superman.",
     "Ha preso un taxi urlando ‹Segua quella macchina!›",
@@ -15,6 +17,18 @@ const risposte = [
     "E' appena arrivata la lettera da Hogwarts.",
     "Ha avuto una rivelazione sulla via di Damasco.",
     "E la cremeria?",
+    "A caccia di wezen",
+    "Al Lux a suonare il piano con Lucifer",
+    "A dar da mangiare al fucsbau",
+    "In una galassia lontana lontana",
+    "Imprigionato da una Hexembist",
+    "Sulla Salerno-Reggio Calabria...",
+    "No dai",
+    "Sergino tremendino",
+    "composer install sergio",
+    "npm install sergio",
+    "È a Napoli",
+    "È qui solo che non lo vedi",
     "Eh, la crisi.",
     "Fin dove si lavano la faccia i pelati?",
     "Alla fine dell'arcobaleno.",
@@ -35,7 +49,6 @@ const risposte = [
     "Nick Fury ha chiamato, gli serve un developer.",
     "A cercare le sfere del drago.",
     "User not in sudoers file, incident will be reported.",
-    "404 not found",
     "500 server error",
     "Eletto con due terzi dei voti al parlamento in seduta plenaria: ora lo devi chiamare Signor Presidente.",
     "Eh, brutta l'abolizione della schiavitu' eh?"
